@@ -2,17 +2,7 @@ package hello
 
 import "fmt"
 
-// PrintVimGo will print `vim-go`
-func PrintVimGo() {
-	fmt.Println("Hello World!")
-}
-
-// PrintString will print the string passed to it
-func PrintString(str string) {
-	fmt.Println(str)
-}
-
-// Add you can never imagine what this does
-func Add(a, b int) int {
-	return a + b
+// SomethingCool returns a string just pass it a name
+func SomethingCool(name string) string {
+	return fmt.Sprintf("%s is an awesome person, have a great day!", name)
 }
