@@ -4,7 +4,7 @@ import "fmt"
 
 // PrintVimGo will print `vim-go`
 func PrintVimGo() {
-	fmt.Println("Hello World!")
+	fmt.Println("Vim Go!")
 }
 
 // PrintString will print the string passed to it
@@ -14,5 +14,5 @@ func PrintString(str string) {
 
 // Add you can never imagine what this does
 func Add(a, b int) int {
-	return a + b
+	return a - b
 }
