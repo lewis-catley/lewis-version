@@ -11,3 +11,8 @@ func PrintVimGo() {
 func PrintString(str string) {
 	fmt.Println(str)
 }
+
+// Add you can never imagine what this does
+func Add(a, b int) int {
+	return a + b
+}
