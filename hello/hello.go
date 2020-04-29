@@ -1,9 +1,13 @@
-package hello 
+package hello
 
 import "fmt"
 
-// PrintVimGo will print `vim-go` 
+// PrintVimGo will print `vim-go`
 func PrintVimGo() {
 	fmt.Println("Hello World!")
-	fmt.Println("Tagged release version 0.0.2")
+}
+
+// PrintString will print the string passed to it
+func PrintString(str string) {
+	fmt.Println(str)
 }
