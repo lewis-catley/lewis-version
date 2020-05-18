@@ -16,3 +16,8 @@ func PrintString(str string) {
 func Add(a, b int) int {
 	return a + b
 }
+
+// Subtract no idea what this does
+func Subtract(a, b int) int {
+	return a - b
+}
